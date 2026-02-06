@@ -1,0 +1,7 @@
+INFO Application started successfully
+INFO User logged in
+WARNING Disk usage is high
+INFO Background job completed
+ERROR Unable to connect to database
+WARNING Memory usage warning
+INFO Application stopped
