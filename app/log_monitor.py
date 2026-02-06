@@ -24,4 +24,3 @@ if __name__ == "__main__":
 
     result = analyze_logs(log_lines)
     print(result)
-
