@@ -19,11 +19,9 @@ def analyze_logs(log_lines):
 
 
 if __name__ == "__main__":
-    sample_logs = [
-        "INFO App started",
-        "WARNING Low disk space",
-        "ERROR Database connection failed"
-    ]
+    with open("app.log", "r") as file:
+        log_lines = file.readlines()
 
-    result = analyze_logs(sample_logs)
+    result = analyze_logs(log_lines)
     print(result)
+
